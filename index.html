@@ -5,9 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RESUME</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>IRINA FEDORINA</h1>
-    <h2>CONTACT</h2>
+    <header class="header"> </header>
+    <main class="resume">
+        <div class="container">
+            <section class="section name">
+                <img src="./Snapseed.jpg" alt="" class="foto">
+                <div class="title">
+                  <h1 class="name_title">IRINA FEDORINA</h1>
+                  <h3 class="subtitle">Junior Front-End Developer</h3>
+                </div>        
+            </section>
+            <section class="section contact">
+              <h2 class="section-title">Contacts</h2>
+              <ul>
+                <li>telefon: +7 (902)6909-886</li>
+                <li>email adress: Riche1989@mail.ru</li>
+                <li>discort: Irina Fedorina#8011</li>
+              </ul>
+            </section>
+            <section class="section profile">
+                <h2 class="section-title">Profile</h2>
+                <p>Thoughts to become a programmer appeared a year ago. But I didn't even know where to start. Before the new year, I got into HTML/CSS courses, and then it all started. I understood in what direction to move further and what I want to achieve. The goal for the next year is to dive into the world of JS and React</p>
+            </section>
+            <section class="section code">
+                <h2 class="section-title">Code</h2>
+                <pre class="pre">
+                   <code>
+                        function squareSum(numbers) {
+                            let sum = 0 
+                            for( let i = 0; i < numbers.length; i++) {
+                            sum += numbers[i] **2
+                        }
+                          return sum
+                        }
+                   </code>
+                </pre>
+            </section>
+            <section class="section educstion">
+                <h2 class="section-title">educstion</h2>
+                <p>Russian State Social University | 2007-2010
+                    <br>Faculty of Finance and Credit</p>
+            </section>
+            <section class="section courses">
+                <h2 class="section-title">courses</h2>
+                <ul>
+                    <li>Basics HTML/CSS</li>
+                    <li>Basics Frontend (Hexlet)</li>
+                </ul>
+            </section>
+            <section class="section languages">
+                <h2 class="section-title">languages</h2>
+                <p>English - A1 Basics</p>
+            </section>
+        </div>
+    </main>   
+    <footer class="footer">
+
+    </footer> 
 </body>
 </html>
