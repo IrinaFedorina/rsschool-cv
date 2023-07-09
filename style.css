@@ -108,12 +108,45 @@ body {
     color: rgb(228, 156, 236);
     padding-bottom: 20px;
 }
-.pre {
+.pr-code {
     padding: 0;
     margin: 0;
+    width: 340px;
+}
+.languages, .courses {
+    border-bottom: none;
 }
 @media (max-width: 768px) {
     .section {
       width: 100%;
     }
+  }
+  .footer {
+    background-color: rgb(228, 156, 236);
+  }
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+  }
+  .github {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    color: #3e090d;
+  }
+  .github-link {
+    padding-left: 20px;
+    text-decoration: none;
+    color: #3e090d;
+  }
+  .logo {
+    width: 121px;
+    height: 45px;
+    
   }
