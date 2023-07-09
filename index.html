@@ -4,17 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RESUME</title>
+    <title>CV</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./icons8-пользователь-женщина-в-кружке-32.png">
 </head>
 <body>
-    <header class="header"> </header>
-    <main class="resume">
-        <div class="container">
+    <header class="header">
+        <div class="container header-container">
+            <nav class="nav">
+              <ul class="nav-list">          
+                <li class="nav-item">Contacts</li>
+                <li class="nav-item">Profile</li>         
+                <li class="nav-item">Code</li>
+                <li class="nav-item">Education</li>
+                <li class="nav-item"><a href="#courses" class="link">Courses</a></li>
+                <li class="nav-item">languages</li>
+              </ul>
+            </nav>
+        </div>   
+    </header>
+    <main class="main">
+        <div class="container main-container">
             <section class="section name">
-                <img src="./Snapseed.jpg" alt="" class="foto">
+                <img src="./Snapseed.jpg" alt="my photo" class="foto">
                 <div class="title">
-                  <h1 class="name_title">IRINA FEDORINA</h1>
+                  <h1 class="section-name">IRINA FEDORINA</h1>
                   <h3 class="subtitle">Junior Front-End Developer</h3>
                 </div>        
             </section>
@@ -32,25 +46,23 @@
             </section>
             <section class="section code">
                 <h2 class="section-title">Code</h2>
-                <pre class="pre">
-                   <code>
-                        function squareSum(numbers) {
-                            let sum = 0 
-                            for( let i = 0; i < numbers.length; i++) {
-                            sum += numbers[i] **2
-                        }
-                          return sum
-                        }
-                   </code>
+                <pre class="pre"><code> 
+                    function squareSum(numbers) {
+                    let sum = 0 
+                    for( let i = 0; i < numbers.length; i++) {
+                    sum += numbers[i] **2
+                    }
+                      return sum
+                    }</code>
                 </pre>
             </section>
             <section class="section educstion">
-                <h2 class="section-title">educstion</h2>
+                <h2 class="section-title">Educstion</h2>
                 <p>Russian State Social University | 2007-2010
                     <br>Faculty of Finance and Credit</p>
             </section>
-            <section class="section courses">
-                <h2 class="section-title">courses</h2>
+            <section class="section courses" id="courses">
+                <h2 class="section-title">Courses</h2>
                 <ul>
                     <li>Basics HTML/CSS</li>
                     <li>Basics Frontend (Hexlet)</li>
@@ -63,7 +75,9 @@
         </div>
     </main>   
     <footer class="footer">
+        <div class="container footer-container">
 
+        </div>
     </footer> 
 </body>
 </html>
